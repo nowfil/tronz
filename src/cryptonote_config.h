@@ -123,7 +123,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "tronz"
+#define CRYPTONOTE_NAME                         "bitmonero"
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "data.mdb"
 #define CRYPTONOTE_BLOCKCHAINDATA_LOCK_FILENAME "lock.mdb"
@@ -165,7 +165,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
       0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA3, 0x16
     } }; // Bender's nightmare
-  std::string const GENESIS_TX = "";
+  std::string const GENESIS_TX = "013c01ff0006ff9fdb58028319d1ff6309979336db5df35a53493f2d22acdae182e2f1a70b71a66a75173980a8d6b90702fb4c31671ec6307ef9beba930fa8d4a3cd8fa50fce97b22ea94472562ef71d818088aca3cf020239d6dcb5b62f13a21b836b15d0df0fe0d6535a8f814f7789fdbb70c4d98f7cd38090cad2c60e0286225bd20d456864e2b086f96fe9c53d8ed4abbcb659bdeb09a0fd65104e9ca480e08d84ddcb0102499e2f40df529fe27658c4ce75b0fcb2a1cd65ad7e2a09553d9bb5440479597080c0caf384a30202d7506fb13852c2a96f7117aab08f38dd603cd7a95abf406e8b3eaad0b728abfa210165c70598ef6342270a7b15bbf640298cc443ea81a485ddf74d4706d2786fc42d";
   uint32_t const GENESIS_NONCE = 10005;
 
   namespace testnet
@@ -179,7 +179,7 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA3, 0x17
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "";
+    std::string const GENESIS_TX = "013c01ff0006ff9fdb58023e3a347412a8f7113584463f4c5501ba6631097448af5bb7bc8996de248d6d4a80a8d6b90702a47f322ec768130b780d0f9a820a1a46b1896fdc8aadb2f54bcde27bf48816e78088aca3cf02021e7209f8daa2b29459fdc8e220f87abfc22fdb81a958340b222f9e71e809fdcf8090cad2c60e024dd6ff2b68ace14d32f5d39b63cac4a7b8bf0a3b6e5dc5206aab2f4e31df352280e08d84ddcb01026a79d59ee4e37cc70fb1bbf1564de5848692a5ca4cf963753f65185d80fae03e80c0caf384a30202b93918f2eae33d473f832f147dc6cc17e9a89b8e28941eb67ee0e7d97755449a21016db7c539a6a3bfa98bbe291054833d0b3839e51a1b2db3738e42a1412e09598d";
     uint32_t const GENESIS_NONCE = 10006;
   }
 
@@ -194,7 +194,7 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
         0x12 ,0x30, 0xF1, 0x71 , 0x61, 0x04 , 0x41, 0x61, 0x17, 0x31, 0x00, 0x82, 0x16, 0xA1, 0xA3, 0x18
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "";
+    std::string const GENESIS_TX = "013c01ff0006ff9fdb58020483d6a5d0ba542fd35123dcb4a67bea62c2512241cbb3df3b2301bcfe2e76eb80a8d6b9070214d884b08d1223f98203fc253a51ec1471a78f826a1fa97e94c30971336d6f958088aca3cf02020181682590ce79a8bfcb4909440bf17d36fff71f28b9f52b1a2fdfa6e05b13a68090cad2c60e02383f86c76cf3ed2953c412e6889157ca6797cfce740be4f9ec23605727d2cfed80e08d84ddcb01026742d5a456a92a7822001812cb0fbaee892ed8240d9f2faf63951975649d65b980c0caf384a302023b9bfdea0e02bf42acf95b2fde111b09d89da8ea0182e8dd8a087a5a69b1e2fa2101e3405d5c6ea887921adaf06195252e590f24df4a2d7aba1835e38e31db6013a9";
     uint32_t const GENESIS_NONCE = 10007;
   }
 }

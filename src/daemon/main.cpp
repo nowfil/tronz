@@ -138,6 +138,13 @@ int main(int argc, char const * argv[])
       std::cout << "OS: " << tools::get_os_version_string() << ENDL;
       return 0;
     }
+// print genesis tx
+    if (command_line::get_arg(vm, daemon_args::arg_print_genesis_tx_hex))
+    {
+          const cryptonote::network_type nettype = cryptonote::MAINNET;
+          print_genesis_tx_hex(nettype);
+          return false;
+    }
 
     std::string config = command_line::get_arg(vm, daemon_args::arg_config_file);
     boost::filesystem::path config_path(config);

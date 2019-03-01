@@ -137,7 +137,7 @@ VOLUME /root/.tronz
 
 # Generate your wallet via accessing the container and run:
 # cd /wallet
-# monero-wallet-cli
+# tronz-wallet-cli
 VOLUME /wallet
 
 EXPOSE 18080
